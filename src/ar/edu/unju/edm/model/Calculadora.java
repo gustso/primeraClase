@@ -12,5 +12,10 @@ public class Calculadora {
 		int resultado = (int) Math.pow(base, exponente);
 		System.out.println("Resultado POTENCIA: "+resultado);
 	}
+	
+	public void resolverResta (int primerNumero, int segundoNumero) {
+		int resultado = primerNumero - segundoNumero;
+		System.out.println("Resultado RESTA: "+resultado);
+	}
 
 }
